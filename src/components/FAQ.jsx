@@ -32,7 +32,7 @@ const FAQ = () => {
   };
 
   return (
-    <div className="py-28 bg-brand-cream dark:bg-brand-navy border-t border-b border-obsidian-200/50 dark:border-obsidian-800/55 relative">
+    <div className="py-28 bg-brand-cream dark:bg-brand-navy border-t border-b border-obsidian-200/50 dark:border-white/10 relative">
       <div className="max-w-4xl mx-auto px-6 relative z-10 font-sans">
         
         {/* Section Header */}
@@ -40,7 +40,7 @@ const FAQ = () => {
           <h2 className="text-3xl md:text-5xl font-bold font-serif text-obsidian-750 dark:text-white">
             Frequently Asked Questions
           </h2>
-          <p className="mt-4 text-xs uppercase tracking-wider text-obsidian-600 dark:text-obsidian-355 font-semibold">
+          <p className="mt-4 text-xs uppercase tracking-wider text-obsidian-600 dark:text-slate-400 font-semibold">
             Everything you need to know about our batches, materials, policies, and support services.
           </p>
         </div>
@@ -52,7 +52,7 @@ const FAQ = () => {
             return (
               <div 
                 key={index} 
-                className="rounded-none border border-obsidian-200 dark:border-obsidian-800 bg-white/50 dark:bg-brand-navy/60 overflow-hidden transition-colors duration-150 hover:border-brand/20"
+                className="rounded-none border border-obsidian-200 dark:border-white/10 bg-white/50 dark:bg-brand-navy/60 overflow-hidden transition-colors duration-150 hover:border-brand/20"
               >
                 <button
                   onClick={() => toggleFAQ(index)}
@@ -65,7 +65,7 @@ const FAQ = () => {
                 </button>
 
                 {isOpen && (
-                  <div className="px-6 pb-6 text-sm md:text-base text-obsidian-650 dark:text-obsidian-355 leading-relaxed font-normal border-t border-obsidian-150 dark:border-obsidian-800 pt-4 text-left">
+                  <div className="px-6 pb-6 text-sm md:text-base text-obsidian-650 dark:text-slate-400 leading-relaxed font-normal border-t border-obsidian-150 dark:border-white/10 pt-4 text-left">
                     {item.answer}
                   </div>
                 )}

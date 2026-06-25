@@ -116,7 +116,7 @@ const Hero = () => {
       </div>
 
       {/* Statistics Band (Midnight Navy block below the fold) */}
-      <div className="bg-brand-navy text-white py-16 border-t border-b border-obsidian-850 relative z-10 w-full font-sans">
+      <div className="bg-brand-navy text-white py-16 border-t border-b border-white/10 relative z-10 w-full font-sans">
         <div className="max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-3 gap-10 text-center md:text-left">
           <div className="flex flex-col gap-1 border-b md:border-b-0 md:border-r border-white/10 pb-6 md:pb-0 md:pr-8">
             <h3 className="text-4xl font-bold font-serif text-white">

@@ -44,7 +44,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
   };
 
   return (
-    <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-150 border-b border-obsidian-200 dark:border-obsidian-800 ${
+    <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-150 border-b border-obsidian-200 dark:border-white/10 ${
       scrolled 
         ? 'bg-brand-cream/95 dark:bg-brand-navy/95 py-4 shadow-sm' 
         : 'bg-brand-cream/80 dark:bg-brand-navy/80 py-6'
@@ -119,14 +119,14 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
 
       {/* Mobile Drawer menu */}
       {isOpen && (
-        <div className="md:hidden w-full bg-brand-cream dark:bg-brand-navy border-t border-obsidian-200 dark:border-obsidian-800 py-6 px-6 shadow-md">
+        <div className="md:hidden w-full bg-brand-cream dark:bg-brand-navy border-t border-obsidian-200 dark:border-white/10 py-6 px-6 shadow-md">
           <div className="flex flex-col gap-4">
             {navLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.href}
                 onClick={(e) => handleLinkClick(e, link.href)}
-                className="text-sm font-semibold uppercase tracking-wider text-obsidian-750 dark:text-obsidian-300 hover:text-brand dark:hover:text-white transition-colors py-3 border-b border-obsidian-200 dark:border-obsidian-850/50 min-h-[48px] flex items-center"
+                className="text-sm font-semibold uppercase tracking-wider text-obsidian-750 dark:text-obsidian-300 hover:text-brand dark:hover:text-white transition-colors py-3 border-b border-obsidian-200 dark:border-white/5 min-h-[48px] flex items-center"
               >
                 {link.name}
               </a>

@@ -83,7 +83,7 @@ const Contact = () => {
   };
 
   return (
-    <footer className="bg-brand-navy text-white border-t border-obsidian-850 pt-24 pb-12 relative overflow-hidden">
+    <footer className="bg-brand-navy text-white border-t border-white/5 pt-24 pb-12 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10 font-sans">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-8 items-start mb-20">
           
@@ -141,7 +141,7 @@ const Contact = () => {
           </div>
 
           {/* Right Column: Enquiry Form */}
-          <div className="lg:col-span-7 bg-[#1E293B]/60 p-8 md:p-10 rounded-none border border-obsidian-800 shadow-sm">
+          <div className="lg:col-span-7 bg-[#1E293B]/60 p-8 md:p-10 rounded-none border border-white/10 shadow-sm">
             <h3 className="text-2xl font-bold font-serif text-white mb-2 text-left">
               Quick Admission Enquiry
             </h3>
@@ -256,23 +256,23 @@ const Contact = () => {
         </div>
 
         {/* Footer Base */}
-        <div className="border-t border-obsidian-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-6">
+        <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-xs md:text-sm text-[#CDC7B9]">
             © 2026 Apex Academy. All rights reserved.
           </p>
 
           {/* Social Links */}
           <div className="flex gap-4">
-            <a href="#" className="w-9 h-9 rounded-none bg-[#1E293B] hover:bg-brand/20 border border-obsidian-800 text-[#CDC7B9] hover:text-white flex items-center justify-center transition-colors">
+            <a href="#" className="w-9 h-9 rounded-none bg-[#1E293B] hover:bg-brand/20 border border-white/10 text-[#CDC7B9] hover:text-white flex items-center justify-center transition-colors">
               <Facebook size={16} />
             </a>
-            <a href="#" className="w-9 h-9 rounded-none bg-[#1E293B] hover:bg-brand/20 border border-obsidian-800 text-[#CDC7B9] hover:text-white flex items-center justify-center transition-colors">
+            <a href="#" className="w-9 h-9 rounded-none bg-[#1E293B] hover:bg-brand/20 border border-white/10 text-[#CDC7B9] hover:text-white flex items-center justify-center transition-colors">
               <Twitter size={16} />
             </a>
-            <a href="#" className="w-9 h-9 rounded-none bg-[#1E293B] hover:bg-brand/20 border border-obsidian-800 text-[#CDC7B9] hover:text-white flex items-center justify-center transition-colors">
+            <a href="#" className="w-9 h-9 rounded-none bg-[#1E293B] hover:bg-brand/20 border border-white/10 text-[#CDC7B9] hover:text-white flex items-center justify-center transition-colors">
               <Instagram size={16} />
             </a>
-            <a href="#" className="w-9 h-9 rounded-none bg-[#1E293B] hover:bg-brand/20 border border-obsidian-800 text-[#CDC7B9] hover:text-white flex items-center justify-center transition-colors">
+            <a href="#" className="w-9 h-9 rounded-none bg-[#1E293B] hover:bg-brand/20 border border-white/10 text-[#CDC7B9] hover:text-white flex items-center justify-center transition-colors">
               <Linkedin size={16} />
             </a>
           </div>
